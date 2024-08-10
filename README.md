@@ -1,10 +1,8 @@
 # tencent-sandbox
 
-tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview) 为腾讯全家桶创建沙盒的配置
+通过[Windows 沙盒](https://learn.microsoft.com/zh-cn/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)运行各种国产软件
 
 ## 更多配置
-
-请不要在issue里面询问**除腾讯全家桶之外的配置**
 
 **[更多配置](https://blog.kongwu.top/p/sandbox-configuration)**，欢迎在blog下面的评论提供更多配置
 
@@ -23,12 +21,12 @@ tencent-sandbox 是使用 [Windows sandbox](https://learn.microsoft.com/zh-cn/wi
 
 不明白如何操作:
 
-1. 用文本方式打开Tencent.wsb
+1. 用文本方式打开沙盒.wsb
 2. 将**所有**例如`<HostFolder>.\tencent-sandbox\xxxxxxx</HostFolder>` 中的 `.\` 手动修改为你 clone/下载 的**项目目录**。
 
 ## 兼容性
 
-目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** **腾讯会议** **腾讯文档** 正常使用
+目前测试 **微信** **QQ** **QQNT** **TIM** **企业微信** **腾讯会议** **腾讯文档** **QQ音乐** **网易云音乐** **夸克网盘** 正常使用
 
 如有其他需要，请提 Issue
 
@@ -60,7 +58,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 **按照下面可选项配置`SysWOW64`**
 
-打开**Tencent.wsb**
+打开**沙盒.wsb**
 
 安装**经过测试**的软件 (可选)
 
@@ -84,7 +82,7 @@ git clone https://github.com/empty-233/tencent-sandbox.git
 
 ## 挂载路径
 
-请查看 Tencent.wsb 中的 `MappedFolder` 配置项
+请查看 沙盒.wsb 中的 `MappedFolder` 配置项
 
 qq保存的路径: Data\Documents\Tencent\ (qqid) \FileRecv
 
