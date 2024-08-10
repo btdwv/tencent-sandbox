@@ -1,0 +1,269 @@
+<Configuration>
+    <MappedFolders>
+        <!-- 桌面 -->
+        <MappedFolder>
+            <HostFolder>.\Desktop</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Desktop</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- 脚本 -->
+        <MappedFolder>
+            <HostFolder>.\Scripts</HostFolder>
+            <SandboxFolder>C:\Scripts</SandboxFolder> 
+            <ReadOnly>true</ReadOnly> 
+        </MappedFolder>
+
+        <!-- 通用文件 -->
+        <MappedFolder>
+            <HostFolder>.\Data\Common Files (x86)</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Common Files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Common Files</HostFolder>
+            <SandboxFolder>C:\Program Files\Common Files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- SysWOW64 -->
+        <!-- 原先的挂载方式  直接把本地的目录挂载到沙盒的SysWOW64
+        <MappedFolder> 
+          <HostFolder>.\Data\SysWOW64</HostFolder> 
+          <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder> 
+          <ReadOnly>true</ReadOnly> 
+        </MappedFolder>
+        -->
+        <!-- 现在的挂载方式，将本地目录挂载到沙盒里，通过开机脚本把dll复制到沙盒的SysWOW64-->
+        <MappedFolder> 
+          <HostFolder>.\Data\SysWOW64</HostFolder> 
+          <SandboxFolder>C:\SysWOW64</SandboxFolder> 
+          <ReadOnly>true</ReadOnly> 
+        </MappedFolder>
+
+        <!-- 腾讯全家桶 -->
+        <MappedFolder>
+            <HostFolder>.\App\WeChat</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\WeChat</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\QQ</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Tencent\QQ</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\TIM</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Tencent\TIM</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\QQNT</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\QQNT</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\WXWork</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\WXWork</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\Meeting</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Tencent\WeMeet</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\TencentDocs</HostFolder>
+            <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\QQMusic</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\Tencent\QQMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\WeChat</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\WeChat</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\Tencent</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\Tencent</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\TencentDocs</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\TDAppDesktop</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\WeMeet</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\WeMeet</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\QQMusic</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\QQMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\ProgramData\Tencent</HostFolder>
+            <SandboxFolder>C:\ProgramData\Tencent</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\WeChat</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WeChat Files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\Tencent</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Tencent Files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\WXWork</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WXWork</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\QQMusic</HostFolder>
+            <SandboxFolder>C:\QQMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- 网易云音乐 -->
+        <MappedFolder>
+            <HostFolder>.\App\CloudMusic</HostFolder>
+            <SandboxFolder>C:\Program Files\NetEase\CloudMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Local\CloudMusic</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\NetEase\CloudMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\CloudMusic</HostFolder>
+            <SandboxFolder>C:\CloudMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!--KOOK-->
+        <MappedFolder>
+            <HostFolder>.\App\KOOK</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\KOOK</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\KOOK</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\KOOK</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\KOOK</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\KOOK</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        
+        <!--百度网盘-->
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\baidu</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\baidu</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\BaiduYunGuanjia</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\BaiduYunGuanjia</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\BaiduYunKernel</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\BaiduYunKernel</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\Adobe</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Adobe</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- 夸克网盘 -->
+        <MappedFolder>
+            <HostFolder>.\App\quark-cloud-drive</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\quark-cloud-drive</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\quark-cloud-drive</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\quark-cloud-drive</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- Todesk 重启后无法自动登录
+        <MappedFolder>
+            <HostFolder>.\App\ToDesk</HostFolder>
+            <SandboxFolder>C:\Program Files\ToDesk</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <MappedFolder>
+            <HostFolder>.\Data\Local\ToDesk</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\ToDesk</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        -->
+
+        <!-- 向日葵 重启后无法自动登录
+        <MappedFolder>
+            <HostFolder>.\App\SunLogin</HostFolder>
+            <SandboxFolder>C:\Program Files\Oray\SunLogin\SunloginClient</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\SunloginClient</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Oray\SunloginClient</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\ProgramData\Oray</HostFolder>
+            <SandboxFolder>C:\ProgramData\Oray</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\ProgramData\OrayClient</HostFolder>
+            <SandboxFolder>C:\ProgramData\OrayClient</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        -->
+    </MappedFolders>
+    <!-- vGPU -->
+    <vGPU>Enable</vGPU>
+    <!-- 网络 -->
+    <Networking>Enable</Networking>
+    <!-- 受保护的客户端 -->
+    <ProtectedClient>Disable</ProtectedClient>
+    <!-- 剪贴板重定向 -->
+    <ClipboardRedirection>Enable</ClipboardRedirection>
+    <!-- 打印机重定向 -->
+    <PrinterRedirection>Disable</PrinterRedirection>
+    <!-- 音频输入 -->
+    <AudioInput>Enable</AudioInput>
+    <!-- 视频输入 -->
+    <VideoInput>Disable</VideoInput>
+    <!-- 登录命令 -->
+    <LogonCommand>
+        <Command>C:\Scripts\sandbox-setup.cmd</Command>
+    </LogonCommand>
+    <!-- 内存 -->
+    <MemoryInMB>2048</MemoryInMB>
+</Configuration>
