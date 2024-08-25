@@ -89,6 +89,8 @@
 
 安装完成之后复制**沙盒内** `C:\Windows\SysWOW64` 到 `Data\SysWOW64`
 
+注意： 项目里的Data\SysWOW64已经自带部分腾讯软件需要的dll
+
 ## 挂载路径
 
 请查看 Tencent.wsb 中的 `MappedFolder` 配置项
