@@ -19,7 +19,7 @@ md "App\QQNT"
 md "App\TIM"
 md "App\WeChat"
 md "App\WXWork"
-md "App\Meeting"
+md "App\WeMeet"
 md "App\TencentDocs"
 md "App\QQMusic"
 md "Data\Documents\Tencent"
@@ -62,3 +62,14 @@ md "Data\Roaming\Adobe"
 ::ø‰øÀÕ¯≈Ã
 md "App\quark-cloud-drive"
 md "Data\Roaming\quark-cloud-drive"
+
+::PikPak
+md "App\PikPak"
+md "Data\Roaming\PikPak"
+
+::IrfanView
+md "App\IrfanView"
+
+::ø·π∑“Ù¿÷
+md "App\KuGouMusic"
+md "Data\Roaming\KuGou8"

@@ -69,8 +69,8 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
-            <HostFolder>.\App\Meeting</HostFolder>
-            <SandboxFolder>C:\Program Files (x86)\Tencent\WeMeet</SandboxFolder>
+            <HostFolder>.\App\WeMeet</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\WeMeet</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
@@ -200,7 +200,7 @@
         <!-- 夸克网盘 -->
         <MappedFolder>
             <HostFolder>.\App\quark-cloud-drive</HostFolder>
-            <SandboxFolder>C:\Program Files (x86)\quark-cloud-drive</SandboxFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Programs\quark-cloud-drive</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
@@ -209,7 +209,38 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
 
-        <!-- Todesk 重启后无法自动登录
+        <!-- PikPak网盘 -->
+        <MappedFolder>
+            <HostFolder>.\App\PikPak</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\PikPak</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\PikPak</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\PikPak</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- IrfanView -->
+        <MappedFolder>
+            <HostFolder>.\App\IrfanView</HostFolder>
+            <SandboxFolder>C:\Program Files\IrfanView</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!--酷狗音乐-->
+        <MappedFolder>
+            <HostFolder>.\App\KuGouMusic</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\KuGou\KGMusic</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\KuGou8</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\KuGou8</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
+        <!-- Todesk
         <MappedFolder>
             <HostFolder>.\App\ToDesk</HostFolder>
             <SandboxFolder>C:\Program Files\ToDesk</SandboxFolder>
@@ -223,7 +254,7 @@
         </MappedFolder>
         -->
 
-        <!-- 向日葵 重启后无法自动登录
+        <!-- 向日葵
         <MappedFolder>
             <HostFolder>.\App\SunLogin</HostFolder>
             <SandboxFolder>C:\Program Files\Oray\SunLogin\SunloginClient</SandboxFolder>
