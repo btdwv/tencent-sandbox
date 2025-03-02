@@ -1,6 +1,6 @@
 @echo off
 
-::ÆäËû
+::å…¶ä»–
 md "App"
 md "Desktop"
 md "Scripts"
@@ -13,27 +13,30 @@ md "Data\Roaming"
 md "Data\Documents"
 md "Data\ProgramData"
 
-::ÌÚÑ¶È«¼ÒÍ°
+::è…¾è®¯å…¨å®¶æ¡¶
 md "App\QQ"
 md "App\QQNT"
 md "App\TIM"
 md "App\WeChat"
+md "App\Weixin"
 md "App\WXWork"
 md "App\WeMeet"
 md "App\TencentDocs"
 md "App\QQMusic"
 md "Data\Documents\Tencent"
 md "Data\Documents\WeChat"
+md "Data\Documents\xwechat_files"
 md "Data\Documents\WXWork"
 md "Data\Documents\QQMusic"
 md "Data\Roaming\Tencent"
 md "Data\Roaming\WeChat"
+md "Data\Roaming\xwechat"
 md "Data\Roaming\TencentDocs"
 md "Data\Roaming\WeMeet"
 md "Data\Roaming\QQMusic"
 md "Data\ProgramData\Tencent"
 
-::ÍøÒ×ÔÆÒôÀÖ
+::ç½‘æ˜“äº‘éŸ³ä¹
 md "App\CloudMusic"
 md "Data\Local\CloudMusic"
 md "Data\Documents\CloudMusic"
@@ -42,7 +45,7 @@ md "Data\Documents\CloudMusic"
 ::md "App\ToDesk"
 ::md "Data\Local\ToDesk"
 
-::ÏòÈÕ¿û
+::å‘æ—¥è‘µ
 ::md "App\SunLogin"
 ::md "Data\Roaming\SunloginClient"
 ::md "Data\ProgramData\Oray"
@@ -53,13 +56,13 @@ md "App\KOOK"
 md "Data\Roaming\KOOK"
 md "Data\Documents\KOOK"
 
-::°Ù¶ÈÍøÅÌ
+::ç™¾åº¦ç½‘ç›˜
 md "Data\Roaming\baidu"
 md "Data\Roaming\BaiduYunGuanjia"
 md "Data\Roaming\BaiduYunKernel"
 md "Data\Roaming\Adobe"
 
-::¿ä¿ËÍøÅÌ
+::å¤¸å…‹ç½‘ç›˜
 md "App\quark-cloud-drive"
 md "Data\Roaming\quark-cloud-drive"
 
@@ -70,6 +73,6 @@ md "Data\Roaming\PikPak"
 ::IrfanView
 md "App\IrfanView"
 
-::¿á¹·ÒôÀÖ
+::é…·ç‹—éŸ³ä¹
 md "App\KuGouMusic"
 md "Data\Roaming\KuGou8"
