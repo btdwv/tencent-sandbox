@@ -131,11 +131,11 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WeChat Files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
-        <HostFolder>.\Data\Documents\xwechat_files</HostFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Documents\xwechat_files</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\xwechat_files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
-        <MappedFolder>
         <MappedFolder>
             <HostFolder>.\Data\Documents\Tencent</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Tencent Files</SandboxFolder>
