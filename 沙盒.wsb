@@ -49,6 +49,11 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
+            <HostFolder>.\App\Weixin</HostFolder>
+            <SandboxFolder>C:\Program Files\Tencent\Weixin</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\App\QQ</HostFolder>
             <SandboxFolder>C:\Program Files (x86)\Tencent\QQ</SandboxFolder>
             <ReadOnly>false</ReadOnly>
@@ -90,6 +95,11 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
         <MappedFolder>
+            <HostFolder>.\Data\Roaming\xwechat</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\xwechat</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
             <HostFolder>.\Data\Roaming\Tencent</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\Tencent\Tencent</SandboxFolder>
             <ReadOnly>false</ReadOnly>
@@ -121,6 +131,11 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\WeChat Files</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <HostFolder>.\Data\Documents\xwechat_files</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\xwechat_files</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
         <MappedFolder>
             <HostFolder>.\Data\Documents\Tencent</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\Documents\Tencent Files</SandboxFolder>
